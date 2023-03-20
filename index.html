@@ -5,6 +5,13 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Zadanie domowe GOIT Polska - Figma</title>
+        <link
+            rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
+            integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
+            crossorigin="anonymous"
+            referrerpolicy="no-referrer"
+        />
         <link rel="stylesheet" href="./css/styles.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -48,45 +55,45 @@
         </header>
 
         <main class="main-background">
-            <section class="title-background section">
+            <section class="hero section">
                 <div class="container">
                     <h1 class="title">
                         EFEKTYWNE ROZWIĄZANIA DLA WASZEGO BIZNESU
                     </h1>
-                    <button class="click-on" type="button">Zamów usługe</button>
+                    <button class="hero-btn" type="button">Zamów usługe</button>
                 </div>
             </section>
 
             <section class="main-background section">
                 <div class="container">
-                    <ul class="cards-li">
+                    <ul class="article-list">
                         <li>
-                            <h3 class="advantages-title">LOREM IPSUM</h3>
-                            <p class="advantages">
+                            <h3 class="article-title">LOREM IPSUM</h3>
+                            <p class="article">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
                             </p>
                         </li>
                         <li>
-                            <h3 class="advantages-title">LOREM IPSUM</h3>
-                            <p class="advantages">
+                            <h3 class="article-title">LOREM IPSUM</h3>
+                            <p class="article">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
                             </p>
                         </li>
                         <li>
-                            <h3 class="advantages-title">LOREM IPSUM</h3>
-                            <p class="advantages">
+                            <h3 class="article-title">LOREM IPSUM</h3>
+                            <p class="article">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
                             </p>
                         </li>
                         <li>
-                            <h3 class="advantages-title">LOREM IPSUM</h3>
-                            <p class="advantages">
+                            <h3 class="article-title">LOREM IPSUM</h3>
+                            <p class="article">
                                 Lorem ipsum dolor sit amet, consectetur
                                 adipiscing elit. Nam vel arcu sem. Sed non
                                 sodales dui. Interdum et malesuada
@@ -133,7 +140,7 @@
             <section class="team-cards section">
                 <div class="container">
                     <h2 class="secondary-header">Nasz zespół</h2>
-                    <ul class="cards">
+                    <ul class="team-cards-list">
                         <li class="member-card">
                             <img
                                 src="images/JohnDoe1.jpg"
@@ -141,11 +148,12 @@
                                 width="270"
                                 height="260"
                             />
-
-                            <span class="member-card-title">John Doe</span>
-                            <span class="member-card-text"
-                                >Product Designer</span
-                            >
+                            <div class="team-cards-text">
+                                <span class="member-card-title">John Doe</span>
+                                <span class="member-card-text"
+                                    >Product Designer</span
+                                >
+                            </div>
                         </li>
                         <li class="member-card">
                             <img
@@ -154,11 +162,12 @@
                                 width="270"
                                 height="260"
                             />
-
-                            <span class="member-card-title">John Doe</span>
-                            <span class="member-card-text"
-                                >Frontend Developer</span
-                            >
+                            <div class="team-cards-text">
+                                <span class="member-card-title">John Doe</span>
+                                <span class="member-card-text"
+                                    >Frontend Developer</span
+                                >
+                            </div>
                         </li>
                         <li class="member-card">
                             <img
@@ -167,9 +176,10 @@
                                 width="270"
                                 height="260"
                             />
-
-                            <span class="member-card-title">John Doe</span>
-                            <span class="member-card-text">Marketing</span>
+                            <div class="team-cards-text">
+                                <span class="member-card-title">John Doe</span>
+                                <span class="member-card-text">Marketing</span>
+                            </div>
                         </li>
                         <li class="member-card">
                             <img
@@ -178,9 +188,12 @@
                                 width="270"
                                 height="260"
                             />
-
-                            <span class="member-card-title">John Doe</span>
-                            <span class="member-card-text">UI Designer</span>
+                            <div class="team-cards-text">
+                                <span class="member-card-title">John Doe</span>
+                                <span class="member-card-text"
+                                    >UI Designer</span
+                                >
+                            </div>
                         </li>
                     </ul>
                 </div>

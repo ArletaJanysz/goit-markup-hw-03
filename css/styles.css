@@ -17,10 +17,27 @@
     --border-bottom-color: #ececec;
 }
 
+h1,
+h2,
+h3,
+h4,
+p,
+ul,
+li,
+figure {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
     width: 1600px;
+}
+
+.section {
+    padding-top: 94px;
+    padding-bottom: 94px;
 }
 
 ul {
@@ -48,7 +65,6 @@ ul {
 
 .nav {
     display: flex;
-    white-space: ;
     font-weight: 500;
     font-size: 14px;
     line-height: 1.14;
@@ -159,28 +175,26 @@ ul {
 
 .title {
     display: flex;
-    margin-top: 200px;
     margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
-    line-height: 1.37;
+    line-height: 1.3636;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--bg-color);
 }
 
-.title-background {
+.hero {
     background: var(--title-color);
     text-align: center;
-    padding: 106px 452px 106px 452px;
+    padding: 200px 452px;
 }
-
-.click-on {
-    margin-bottom: 200px;
+/* hero button */
+.hero-btn {
     background: var(--active-color);
     color: var(--bg-color);
     font-weight: 700;
-    line-height: 1.9;
+    line-height: 1.875;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
     border-radius: 4px;
     border: 0;
@@ -189,7 +203,7 @@ ul {
     cursor: pointer;
 }
 
-.advantages-title {
+.article-title {
     font-weight: 700;
     font-size: 14px;
     line-height: 1.14;
@@ -197,7 +211,7 @@ ul {
     text-transform: uppercase;
     color: var(--card-title-color);
 }
-.advantages {
+.article {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -206,6 +220,7 @@ ul {
 
 .secondary-header {
     margin-top: 0;
+    margin-bottom: 50px;
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -217,6 +232,7 @@ ul {
 .activities {
     display: flex;
     list-style-type: none;
+    gap: 30px;
 }
 
 .team-cards {
@@ -262,10 +278,6 @@ ul {
     align-items: baseline;
 }
 
-.section {
-    padding-top: 94px;
-    padding-bottom: 94px;
-}
 .head-con-container {
     display: flex;
     justify-content: end;
@@ -281,29 +293,23 @@ ul {
 .head-con-container > :first-child {
     margin-right: 23px;
 }
-.cards-li {
+.article-list {
     display: flex;
+    gap: 30px;
     margin-bottom: -94px;
 }
-.cards {
+.team-cards-list {
     display: flex;
-}
-
-.cards > li:not(:last-child) {
-    margin: 0 30px 0 0;
-}
-
-.activities > li {
-    margin: 0 30px 0 0;
-}
-
-.activicardsties > li {
-    margin: 0 30px 0 0;
-    padding: 0;
+    gap: 30px;
+    justify-content: center;
 }
 
 address > a {
     display: flex;
     flex-direction: column;
     margin-top: 9px;
+}
+
+.team-cards-text {
+    padding: 30px 0;
 }
