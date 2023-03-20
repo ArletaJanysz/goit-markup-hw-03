@@ -14,6 +14,7 @@
     --title-color: #2f303a;
     --secondary-header-color: #212121;
     --team-cards-bg-color: #f5f4fa;
+    --border-bottom-color: #ececec;
 }
 
 body {
@@ -26,8 +27,8 @@ ul {
     list-style-type: none;
 }
 .head-wrapper {
+    border-bottom: 1px solid var(--border-bottom-color);
     background-color: var(--bg-color);
-    /* padding: 24px 227px 25px 215px; */
 }
 
 .logo {
@@ -130,6 +131,7 @@ ul {
 
 .foot-wrapper {
     background-color: var(--foot-bg-color);
+    padding: 60px 1139px 60px 215px;
 }
 
 .foot-contact {
@@ -156,6 +158,9 @@ ul {
 }
 
 .title {
+    display: flex;
+    margin-top: 200px;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.37;
@@ -167,7 +172,7 @@ ul {
 .title-background {
     background: var(--title-color);
     text-align: center;
-    padding: 200px 452px 280px 452px;
+    padding: 106px 452px 106px 452px;
 }
 
 .click-on {
@@ -200,6 +205,7 @@ ul {
 }
 
 .secondary-header {
+    margin-top: 0;
     text-align: center;
     font-weight: 700;
     font-size: 36px;
@@ -275,11 +281,12 @@ ul {
 .head-con-container > :first-child {
     margin-right: 23px;
 }
-
+.cards-li {
+    display: flex;
+    margin-bottom: -94px;
+}
 .cards {
     display: flex;
-    margin: 0;
-    padding: 0;
 }
 
 .cards > li:not(:last-child) {
@@ -290,6 +297,13 @@ ul {
     margin: 0 30px 0 0;
 }
 
-.activities > li {
+.activicardsties > li {
     margin: 0 30px 0 0;
+    padding: 0;
+}
+
+address > a {
+    display: flex;
+    flex-direction: column;
+    margin-top: 9px;
 }
