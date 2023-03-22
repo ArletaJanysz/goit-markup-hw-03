@@ -73,6 +73,7 @@ ul {
 
 .nav-list {
     display: flex;
+    gap: 23px;
     text-decoration: none;
     color: var(--nav-color);
 }
@@ -88,7 +89,6 @@ ul {
 
 .head-contact {
     display: flex;
-
     font-weight: 500;
     font-size: 14px;
     text-decoration: none;
@@ -100,13 +100,16 @@ ul {
 }
 
 .filter-wrapper {
+    margin-bottom: -94px;
+}
+
+.btn-wrapper {
     background: var(--bg-color);
     display: flex;
     gap: 8px;
     justify-content: center;
 }
-/* dodać klasę do <section class="section"> w portfolio, usunąć padding dolny */
-padding-bottom: -94px;
+
 .filter-btn {
     cursor: pointer;
     font-family: 'Roboto', sans-serif;
@@ -145,13 +148,15 @@ padding-bottom: -94px;
 
 .card-box {
     background: var(--bg-color);
-    width: 370px;
-    border: 1px solid var(--card-box-border-color);
+    max-width: 370px;
     text-align: left;
 }
 
 .card-box-text {
     padding: 20px 24px;
+    margin-top: -4px;
+    border: 1px solid var(--card-box-border-color);
+    border-top: 0;
 }
 
 .cards-net {
@@ -162,7 +167,7 @@ padding-bottom: -94px;
 
 .foot-wrapper {
     background-color: var(--foot-bg-color);
-    padding: 60px 1139px 60px 215px;
+    padding: 60px 0px;
 }
 
 .foot-contact {
@@ -188,7 +193,7 @@ padding-bottom: -94px;
     background: #ffffff;
 }
 
-.title {
+.hero-title {
     display: flex;
     margin-bottom: 30px;
     font-weight: 900;
@@ -226,7 +231,7 @@ padding-bottom: -94px;
     text-transform: uppercase;
     color: var(--card-title-color);
 }
-.article {
+.article-text {
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
@@ -293,21 +298,13 @@ padding-bottom: -94px;
     align-items: baseline;
 }
 
-.head-right-container {
+.head-contact-container {
     display: flex;
     justify-content: end;
     margin-left: 371px;
+    gap: 50px;
 }
 
-.nav-list > li {
-    margin-right: 23px;
-}
-.nav-list:last-child {
-    margin-right: 0;
-}
-.head-con-container > :first-child {
-    margin-right: 23px;
-}
 .article-list {
     display: flex;
     gap: 30px;
