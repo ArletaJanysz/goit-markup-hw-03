@@ -32,7 +32,6 @@ figure {
 body {
     font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
-    width: 1600px;
 }
 
 .section {
@@ -46,12 +45,13 @@ ul {
 .head-wrapper {
     border-bottom: 1px solid var(--border-bottom-color);
     background-color: var(--bg-color);
+    padding: 24px 0 25px;
+    gap: 93px;
 }
 
 .logo {
     display: flex;
     justify-content: flex-start;
-    margin-right: 93px;
     margin-top: 24px;
     margin-bottom: 25px;
     font-family: Raleway;
@@ -73,9 +73,10 @@ ul {
 
 .nav-list {
     display: flex;
-    gap: 23px;
+    gap: 46px;
     text-decoration: none;
     color: var(--nav-color);
+    margin-left: 93px;
 }
 
 .nav-link {
@@ -130,6 +131,7 @@ ul {
     box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08),
         0px 2px 2px rgba(0, 0, 0, 0.12);
     border-radius: 4px;
+    color: var(--bg-color);
 }
 
 .card-title {
@@ -167,7 +169,7 @@ ul {
 
 .foot-wrapper {
     background-color: var(--foot-bg-color);
-    padding: 60px 0px;
+    padding: 60px 0;
 }
 
 .foot-contact {
@@ -195,19 +197,22 @@ ul {
 
 .hero-title {
     display: flex;
-    margin-bottom: 30px;
+    
+margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3636;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--bg-color);
+    
 }
 
 .hero {
     background: var(--title-color);
     text-align: center;
     padding: 200px 452px;
+   
 }
 /* hero button */
 .hero-btn {
@@ -301,7 +306,7 @@ ul {
 .head-contact-container {
     display: flex;
     justify-content: end;
-    margin-left: 371px;
+    /* margin-left: 371px; */
     gap: 50px;
 }
 
