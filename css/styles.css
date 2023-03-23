@@ -197,22 +197,20 @@ ul {
 
 .hero-title {
     display: flex;
-    
-margin-bottom: 30px;
+    padding: 0 252px;
+    margin-bottom: 30px;
     font-weight: 900;
     font-size: 44px;
     line-height: 1.3636;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: var(--bg-color);
-    
 }
 
 .hero {
     background: var(--title-color);
     text-align: center;
     padding: 200px 452px;
-   
 }
 /* hero button */
 .hero-btn {
