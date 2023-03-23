@@ -52,8 +52,7 @@ ul {
 .logo {
     display: flex;
     justify-content: flex-start;
-    margin-top: 24px;
-    margin-bottom: 25px;
+
     font-family: Raleway;
     font-weight: 700;
     font-size: 26px;
@@ -171,12 +170,22 @@ ul {
     background-color: var(--foot-bg-color);
     padding: 60px 0;
 }
-
+address {
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
 .foot-contact {
+   
     font-style: normal;
     font-size: 14px;
     line-height: 1.71;
     letter-spacing: 0.03em;
+    margin-top: 20px;
+}
+
+a {
+    width: max-content;
 }
 
 .link {
@@ -210,7 +219,7 @@ ul {
 .hero {
     background: var(--title-color);
     text-align: center;
-    padding: 200px 452px;
+    padding: 200px 0;
 }
 /* hero button */
 .hero-btn {
@@ -267,8 +276,6 @@ ul {
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
         0px 2px 1px rgba(0, 0, 0, 0.2);
     border-radius: 0px 0px 4px 4px;
-    width: 270px;
-    height: 368px;
     border: 0 solid var(--card-box-border-color);
     text-align: center;
 }
@@ -285,6 +292,7 @@ ul {
     line-height: 1.19;
     letter-spacing: 0.03em;
     color: var(--card-subtitle-color);
+    margin-top: 10px;
 }
 
 /* HW - 03 */
@@ -319,13 +327,7 @@ ul {
     justify-content: center;
 }
 
-address > a {
-    display: flex;
-    flex-direction: column;
-    margin-top: 9px;
-}
-
 .team-cards-text {
-    padding: 20px 24px;
+    padding: 30px 32px;
     text-align: center;
 }
